@@ -1,0 +1,6 @@
+
+ 1) Whether the input data is null/ Input File format is correct.
+ 2) Whether each line in the data/input file is in correct format(Date etc).
+ 3) Check for the the format of the generated alert.
+ 4) Whether all exceptions handled correctly for the above cases.
+  
