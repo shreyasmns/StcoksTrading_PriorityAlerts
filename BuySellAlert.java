@@ -95,7 +95,7 @@ public class BuySellAlert {
 
 
 	/**
-	 * This method extracts a trade data for each friend of an user
+	 * This method extracts, trade data for each friend of an user
 	 * and filters it to consider only the last past week Trade data
 	 * of friends and returns the same
 	 * 
@@ -123,7 +123,7 @@ public class BuySellAlert {
 	}
 
 	/*
-	 * Returns a list of trades represented by a string “<date>,<BUY|SELL>,<ticker>”,
+	 * Returns a list of trades represented by a string â€œ<date>,<BUY|SELL>,<ticker>â€,
 	 * ordered by trade date with the most recent trade first in the list.
 	 *  
 	 */
