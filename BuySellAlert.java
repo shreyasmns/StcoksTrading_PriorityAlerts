@@ -73,7 +73,7 @@ public class BuySellAlert {
 			String BuySell = data[1];
 			String ticker = data[2];
 			
-			// if teh trade for a particular ticket has been already processed, update values
+			// if the trade for a particular ticket has been already processed, update values
 			// otherwise, insert it into the map, based on whether the ticket has been BOUGHT or SOLD
 			if(alertData.containsKey(ticker)){
 				if(BuySell.equalsIgnoreCase("BUY"))
